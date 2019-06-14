@@ -30,7 +30,6 @@ export class UsersListComponent implements OnInit {
     this.userService.fetchUsers(page).subscribe(dataResp => {
      this.userList = dataResp;
      console.log(dataResp);
-     this.pagesCount = dataResp.total_pages;
     });
   }
   fetchPagination() {
