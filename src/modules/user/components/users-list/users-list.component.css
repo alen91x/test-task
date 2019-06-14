@@ -1,0 +1,14 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  th, td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
